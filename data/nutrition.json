@@ -1,0 +1,1012 @@
+{
+  "apple_pie": {
+    "name": "Apple Pie",
+    "calories_per_100g": 237,
+    "protein_g": 1.9,
+    "fat_g": 11.0,
+    "carbs_g": 34.0,
+    "typical_serving_g": 125,
+    "serving_description": "1 slice (1/8 of 9-inch pie)",
+    "notes": "USDA-style average for homemade/bakery apple pie."
+  },
+  "baby_back_ribs": {
+    "name": "Baby Back Ribs",
+    "calories_per_100g": 292,
+    "protein_g": 24.0,
+    "fat_g": 21.0,
+    "carbs_g": 4.0,
+    "typical_serving_g": 170,
+    "serving_description": "About 3-4 ribs with sauce",
+    "notes": "Varies with sauce and trim."
+  },
+  "baklava": {
+    "name": "Baklava",
+    "calories_per_100g": 428,
+    "protein_g": 6.7,
+    "fat_g": 25.0,
+    "carbs_g": 45.0,
+    "typical_serving_g": 60,
+    "serving_description": "1 piece",
+    "notes": "Dense pastry; serving size is smaller than most mains."
+  },
+  "beef_carpaccio": {
+    "name": "Beef Carpaccio",
+    "calories_per_100g": 175,
+    "protein_g": 20.0,
+    "fat_g": 10.0,
+    "carbs_g": 1.0,
+    "typical_serving_g": 85,
+    "serving_description": "Appetizer plate",
+    "notes": "Depends on oil, cheese, and arugula garnish."
+  },
+  "beef_tartare": {
+    "name": "Beef Tartare",
+    "calories_per_100g": 196,
+    "protein_g": 20.0,
+    "fat_g": 11.0,
+    "carbs_g": 2.0,
+    "typical_serving_g": 120,
+    "serving_description": "Restaurant appetizer",
+    "notes": "Egg yolk and oil raise calories."
+  },
+  "beet_salad": {
+    "name": "Beet Salad",
+    "calories_per_100g": 85,
+    "protein_g": 3.0,
+    "fat_g": 4.5,
+    "carbs_g": 9.0,
+    "typical_serving_g": 180,
+    "serving_description": "Side salad bowl",
+    "notes": "Goat cheese and nuts add calories."
+  },
+  "beignets": {
+    "name": "Beignets",
+    "calories_per_100g": 347,
+    "protein_g": 6.0,
+    "fat_g": 16.0,
+    "carbs_g": 46.0,
+    "typical_serving_g": 90,
+    "serving_description": "3 beignets",
+    "notes": "Powdered sugar included in typical restaurant serving."
+  },
+  "bibimbap": {
+    "name": "Bibimbap",
+    "calories_per_100g": 137,
+    "protein_g": 6.5,
+    "fat_g": 5.0,
+    "carbs_g": 16.0,
+    "typical_serving_g": 450,
+    "serving_description": "1 bowl with rice, vegetables, egg",
+    "notes": "Gochujang and oil change totals."
+  },
+  "bread_pudding": {
+    "name": "Bread Pudding",
+    "calories_per_100g": 188,
+    "protein_g": 4.5,
+    "fat_g": 6.5,
+    "carbs_g": 28.0,
+    "typical_serving_g": 150,
+    "serving_description": "1 square with sauce",
+    "notes": "Custard and whiskey sauce vary widely."
+  },
+  "breakfast_burrito": {
+    "name": "Breakfast Burrito",
+    "calories_per_100g": 219,
+    "protein_g": 10.0,
+    "fat_g": 11.0,
+    "carbs_g": 20.0,
+    "typical_serving_g": 280,
+    "serving_description": "1 burrito",
+    "notes": "Sausage vs. veggie filling changes calories."
+  },
+  "bruschetta": {
+    "name": "Bruschetta",
+    "calories_per_100g": 164,
+    "protein_g": 4.5,
+    "fat_g": 7.0,
+    "carbs_g": 20.0,
+    "typical_serving_g": 80,
+    "serving_description": "2-3 toasted slices",
+    "notes": "Olive oil on bread is the main calorie driver."
+  },
+  "caesar_salad": {
+    "name": "Caesar Salad",
+    "calories_per_100g": 158,
+    "protein_g": 6.0,
+    "fat_g": 13.0,
+    "carbs_g": 6.0,
+    "typical_serving_g": 200,
+    "serving_description": "Side salad with dressing",
+    "notes": "Dressing, croutons, and chicken (if added) dominate."
+  },
+  "cannoli": {
+    "name": "Cannoli",
+    "calories_per_100g": 289,
+    "protein_g": 6.5,
+    "fat_g": 16.0,
+    "carbs_g": 30.0,
+    "typical_serving_g": 70,
+    "serving_description": "1 cannoli",
+    "notes": "Shell frying oil and ricotta filling vary."
+  },
+  "caprese_salad": {
+    "name": "Caprese Salad",
+    "calories_per_100g": 157,
+    "protein_g": 8.0,
+    "fat_g": 12.0,
+    "carbs_g": 4.0,
+    "typical_serving_g": 180,
+    "serving_description": "Tomato, mozzarella, basil plate",
+    "notes": "Olive oil drizzle not always included."
+  },
+  "carrot_cake": {
+    "name": "Carrot Cake",
+    "calories_per_100g": 415,
+    "protein_g": 4.5,
+    "fat_g": 24.0,
+    "carbs_g": 46.0,
+    "typical_serving_g": 110,
+    "serving_description": "1 slice with frosting",
+    "notes": "Cream-cheese frosting is calorie-dense."
+  },
+  "ceviche": {
+    "name": "Ceviche",
+    "calories_per_100g": 99,
+    "protein_g": 14.0,
+    "fat_g": 2.0,
+    "carbs_g": 6.0,
+    "typical_serving_g": 170,
+    "serving_description": "Appetizer bowl",
+    "notes": "Chips or tostadas served alongside are extra."
+  },
+  "cheesecake": {
+    "name": "Cheesecake",
+    "calories_per_100g": 321,
+    "protein_g": 6.0,
+    "fat_g": 23.0,
+    "carbs_g": 25.0,
+    "typical_serving_g": 125,
+    "serving_description": "1 slice",
+    "notes": "New York style, crust included."
+  },
+  "cheese_plate": {
+    "name": "Cheese Plate",
+    "calories_per_100g": 350,
+    "protein_g": 22.0,
+    "fat_g": 28.0,
+    "carbs_g": 3.0,
+    "typical_serving_g": 85,
+    "serving_description": "Assorted cheeses (~3 oz)",
+    "notes": "Fruit, nuts, and crackers are extra."
+  },
+  "chicken_curry": {
+    "name": "Chicken Curry",
+    "calories_per_100g": 164,
+    "protein_g": 12.0,
+    "fat_g": 9.0,
+    "carbs_g": 8.0,
+    "typical_serving_g": 250,
+    "serving_description": "Curry only, without rice",
+    "notes": "Add ~200 kcal for 1 cup cooked rice."
+  },
+  "chicken_quesadilla": {
+    "name": "Chicken Quesadilla",
+    "calories_per_100g": 239,
+    "protein_g": 14.0,
+    "fat_g": 13.0,
+    "carbs_g": 16.0,
+    "typical_serving_g": 220,
+    "serving_description": "1 quesadilla",
+    "notes": "Sour cream and guacamole extra."
+  },
+  "chicken_wings": {
+    "name": "Chicken Wings",
+    "calories_per_100g": 290,
+    "protein_g": 23.0,
+    "fat_g": 20.0,
+    "carbs_g": 4.0,
+    "typical_serving_g": 150,
+    "serving_description": "4-5 wings with sauce",
+    "notes": "Fried vs. baked and sauce type matter."
+  },
+  "chocolate_cake": {
+    "name": "Chocolate Cake",
+    "calories_per_100g": 371,
+    "protein_g": 4.5,
+    "fat_g": 18.0,
+    "carbs_g": 50.0,
+    "typical_serving_g": 110,
+    "serving_description": "1 slice with frosting",
+    "notes": "Layer cakes with ganache run higher."
+  },
+  "chocolate_mousse": {
+    "name": "Chocolate Mousse",
+    "calories_per_100g": 225,
+    "protein_g": 4.0,
+    "fat_g": 16.0,
+    "carbs_g": 18.0,
+    "typical_serving_g": 100,
+    "serving_description": "1 cup / ramekin",
+    "notes": "Cream-based restaurant mousse."
+  },
+  "churros": {
+    "name": "Churros",
+    "calories_per_100g": 421,
+    "protein_g": 4.5,
+    "fat_g": 22.0,
+    "carbs_g": 52.0,
+    "typical_serving_g": 90,
+    "serving_description": "3-4 churros",
+    "notes": "Chocolate dipping sauce extra."
+  },
+  "clam_chowder": {
+    "name": "Clam Chowder",
+    "calories_per_100g": 79,
+    "protein_g": 4.0,
+    "fat_g": 4.0,
+    "carbs_g": 7.0,
+    "typical_serving_g": 245,
+    "serving_description": "1 cup, New England style",
+    "notes": "Bread bowl not included."
+  },
+  "club_sandwich": {
+    "name": "Club Sandwich",
+    "calories_per_100g": 233,
+    "protein_g": 14.0,
+    "fat_g": 11.0,
+    "carbs_g": 18.0,
+    "typical_serving_g": 250,
+    "serving_description": "1 sandwich (3 slices bread)",
+    "notes": "Mayo and bacon drive fat calories."
+  },
+  "crab_cakes": {
+    "name": "Crab Cakes",
+    "calories_per_100g": 197,
+    "protein_g": 16.0,
+    "fat_g": 11.0,
+    "carbs_g": 8.0,
+    "typical_serving_g": 150,
+    "serving_description": "2 cakes",
+    "notes": "Remoulade sauce extra."
+  },
+  "creme_brulee": {
+    "name": "Creme Brulee",
+    "calories_per_100g": 343,
+    "protein_g": 4.5,
+    "fat_g": 28.0,
+    "carbs_g": 20.0,
+    "typical_serving_g": 120,
+    "serving_description": "1 ramekin",
+    "notes": "Heavy cream custard."
+  },
+  "croque_madame": {
+    "name": "Croque Madame",
+    "calories_per_100g": 275,
+    "protein_g": 14.0,
+    "fat_g": 17.0,
+    "carbs_g": 16.0,
+    "typical_serving_g": 230,
+    "serving_description": "1 sandwich with egg",
+    "notes": "Bechamel and ham included."
+  },
+  "cup_cakes": {
+    "name": "Cupcakes",
+    "calories_per_100g": 305,
+    "protein_g": 3.6,
+    "fat_g": 12.0,
+    "carbs_g": 46.0,
+    "typical_serving_g": 80,
+    "serving_description": "1 frosted cupcake",
+    "notes": "Buttercream topping included."
+  },
+  "deviled_eggs": {
+    "name": "Deviled Eggs",
+    "calories_per_100g": 200,
+    "protein_g": 11.0,
+    "fat_g": 16.0,
+    "carbs_g": 1.5,
+    "typical_serving_g": 60,
+    "serving_description": "2 halves",
+    "notes": "Mayo/mustard filling."
+  },
+  "donuts": {
+    "name": "Donuts",
+    "calories_per_100g": 421,
+    "protein_g": 5.0,
+    "fat_g": 23.0,
+    "carbs_g": 49.0,
+    "typical_serving_g": 75,
+    "serving_description": "1 glazed yeast donut",
+    "notes": "Filled or cake donuts differ."
+  },
+  "dumplings": {
+    "name": "Dumplings",
+    "calories_per_100g": 184,
+    "protein_g": 8.0,
+    "fat_g": 6.0,
+    "carbs_g": 24.0,
+    "typical_serving_g": 150,
+    "serving_description": "6 steamed dumplings",
+    "notes": "Pan-fried versions are higher."
+  },
+  "edamame": {
+    "name": "Edamame",
+    "calories_per_100g": 121,
+    "protein_g": 11.0,
+    "fat_g": 5.0,
+    "carbs_g": 9.0,
+    "typical_serving_g": 100,
+    "serving_description": "1 bowl, shelled weight",
+    "notes": "Salted in-pod appetizer."
+  },
+  "eggs_benedict": {
+    "name": "Eggs Benedict",
+    "calories_per_100g": 250,
+    "protein_g": 12.0,
+    "fat_g": 18.0,
+    "carbs_g": 10.0,
+    "typical_serving_g": 220,
+    "serving_description": "2 poached eggs, English muffin, hollandaise",
+    "notes": "Hollandaise is the calorie spike."
+  },
+  "escargots": {
+    "name": "Escargots",
+    "calories_per_100g": 90,
+    "protein_g": 16.0,
+    "fat_g": 2.0,
+    "carbs_g": 2.0,
+    "typical_serving_g": 80,
+    "serving_description": "6 snails",
+    "notes": "Garlic-butter sauce often adds substantial fat."
+  },
+  "falafel": {
+    "name": "Falafel",
+    "calories_per_100g": 333,
+    "protein_g": 13.0,
+    "fat_g": 18.0,
+    "carbs_g": 32.0,
+    "typical_serving_g": 100,
+    "serving_description": "4-5 fried balls",
+    "notes": "Pita, tahini, and salad extra."
+  },
+  "filet_mignon": {
+    "name": "Filet Mignon",
+    "calories_per_100g": 267,
+    "protein_g": 26.0,
+    "fat_g": 18.0,
+    "carbs_g": 0.0,
+    "typical_serving_g": 170,
+    "serving_description": "6 oz steak, cooked",
+    "notes": "Butter finish and sides extra."
+  },
+  "fish_and_chips": {
+    "name": "Fish and Chips",
+    "calories_per_100g": 232,
+    "protein_g": 12.0,
+    "fat_g": 12.0,
+    "carbs_g": 20.0,
+    "typical_serving_g": 350,
+    "serving_description": "Battered fish with fries",
+    "notes": "Tartar sauce extra."
+  },
+  "foie_gras": {
+    "name": "Foie Gras",
+    "calories_per_100g": 462,
+    "protein_g": 11.0,
+    "fat_g": 44.0,
+    "carbs_g": 4.0,
+    "typical_serving_g": 50,
+    "serving_description": "Appetizer portion",
+    "notes": "Extremely energy-dense."
+  },
+  "french_fries": {
+    "name": "French Fries",
+    "calories_per_100g": 312,
+    "protein_g": 3.4,
+    "fat_g": 15.0,
+    "carbs_g": 41.0,
+    "typical_serving_g": 117,
+    "serving_description": "Medium restaurant fries",
+    "notes": "Deep-fried, salted."
+  },
+  "french_onion_soup": {
+    "name": "French Onion Soup",
+    "calories_per_100g": 57,
+    "protein_g": 3.5,
+    "fat_g": 2.0,
+    "carbs_g": 6.0,
+    "typical_serving_g": 350,
+    "serving_description": "Bowl with cheese crouton",
+    "notes": "Melted cheese topping included in typical restaurant bowl."
+  },
+  "french_toast": {
+    "name": "French Toast",
+    "calories_per_100g": 229,
+    "protein_g": 7.0,
+    "fat_g": 10.0,
+    "carbs_g": 27.0,
+    "typical_serving_g": 165,
+    "serving_description": "2 slices",
+    "notes": "Syrup and butter extra (~100+ kcal)."
+  },
+  "fried_calamari": {
+    "name": "Fried Calamari",
+    "calories_per_100g": 175,
+    "protein_g": 15.0,
+    "fat_g": 8.0,
+    "carbs_g": 10.0,
+    "typical_serving_g": 150,
+    "serving_description": "Appetizer basket",
+    "notes": "Marinara or aioli extra."
+  },
+  "fried_rice": {
+    "name": "Fried Rice",
+    "calories_per_100g": 163,
+    "protein_g": 5.5,
+    "fat_g": 6.0,
+    "carbs_g": 22.0,
+    "typical_serving_g": 250,
+    "serving_description": "1 restaurant plate",
+    "notes": "Oil and egg content varies."
+  },
+  "frozen_yogurt": {
+    "name": "Frozen Yogurt",
+    "calories_per_100g": 127,
+    "protein_g": 3.5,
+    "fat_g": 3.0,
+    "carbs_g": 22.0,
+    "typical_serving_g": 150,
+    "serving_description": "1 cup, plain",
+    "notes": "Toppings not included."
+  },
+  "garlic_bread": {
+    "name": "Garlic Bread",
+    "calories_per_100g": 350,
+    "protein_g": 8.0,
+    "fat_g": 17.0,
+    "carbs_g": 41.0,
+    "typical_serving_g": 50,
+    "serving_description": "1 slice",
+    "notes": "Butter/oil based."
+  },
+  "gnocchi": {
+    "name": "Gnocchi",
+    "calories_per_100g": 131,
+    "protein_g": 3.5,
+    "fat_g": 1.0,
+    "carbs_g": 27.0,
+    "typical_serving_g": 200,
+    "serving_description": "Plate of potato gnocchi, light sauce",
+    "notes": "Cream or brown-butter sauce adds substantially."
+  },
+  "greek_salad": {
+    "name": "Greek Salad",
+    "calories_per_100g": 113,
+    "protein_g": 4.0,
+    "fat_g": 8.0,
+    "carbs_g": 6.0,
+    "typical_serving_g": 200,
+    "serving_description": "Side salad with feta",
+    "notes": "Dressing included."
+  },
+  "grilled_cheese_sandwich": {
+    "name": "Grilled Cheese Sandwich",
+    "calories_per_100g": 350,
+    "protein_g": 13.0,
+    "fat_g": 20.0,
+    "carbs_g": 28.0,
+    "typical_serving_g": 140,
+    "serving_description": "1 sandwich",
+    "notes": "Butter-grilled, two cheeses typical."
+  },
+  "grilled_salmon": {
+    "name": "Grilled Salmon",
+    "calories_per_100g": 206,
+    "protein_g": 22.0,
+    "fat_g": 13.0,
+    "carbs_g": 0.0,
+    "typical_serving_g": 170,
+    "serving_description": "6 oz fillet",
+    "notes": "Skin-on, oil-brushed."
+  },
+  "guacamole": {
+    "name": "Guacamole",
+    "calories_per_100g": 160,
+    "protein_g": 2.0,
+    "fat_g": 15.0,
+    "carbs_g": 9.0,
+    "typical_serving_g": 60,
+    "serving_description": "1/4 cup",
+    "notes": "Chips extra."
+  },
+  "gyoza": {
+    "name": "Gyoza",
+    "calories_per_100g": 215,
+    "protein_g": 9.0,
+    "fat_g": 10.0,
+    "carbs_g": 22.0,
+    "typical_serving_g": 120,
+    "serving_description": "5-6 pan-fried dumplings",
+    "notes": "Dipping sauce extra."
+  },
+  "hamburger": {
+    "name": "Hamburger",
+    "calories_per_100g": 265,
+    "protein_g": 13.0,
+    "fat_g": 13.0,
+    "carbs_g": 24.0,
+    "typical_serving_g": 240,
+    "serving_description": "1 burger with bun",
+    "notes": "Cheese, bacon, and sauces extra."
+  },
+  "hot_and_sour_soup": {
+    "name": "Hot and Sour Soup",
+    "calories_per_100g": 39,
+    "protein_g": 3.0,
+    "fat_g": 1.2,
+    "carbs_g": 4.0,
+    "typical_serving_g": 240,
+    "serving_description": "1 cup",
+    "notes": "Broth-based; restaurant versions may be starchier."
+  },
+  "hot_dog": {
+    "name": "Hot Dog",
+    "calories_per_100g": 290,
+    "protein_g": 10.0,
+    "fat_g": 18.0,
+    "carbs_g": 20.0,
+    "typical_serving_g": 100,
+    "serving_description": "1 frank with bun",
+    "notes": "Condiments extra."
+  },
+  "huevos_rancheros": {
+    "name": "Huevos Rancheros",
+    "calories_per_100g": 172,
+    "protein_g": 8.0,
+    "fat_g": 9.0,
+    "carbs_g": 14.0,
+    "typical_serving_g": 280,
+    "serving_description": "Eggs, tortillas, salsa plate",
+    "notes": "Beans, cheese, and avocado vary."
+  },
+  "hummus": {
+    "name": "Hummus",
+    "calories_per_100g": 166,
+    "protein_g": 8.0,
+    "fat_g": 10.0,
+    "carbs_g": 14.0,
+    "typical_serving_g": 60,
+    "serving_description": "1/4 cup",
+    "notes": "Pita or vegetables extra."
+  },
+  "ice_cream": {
+    "name": "Ice Cream",
+    "calories_per_100g": 207,
+    "protein_g": 3.5,
+    "fat_g": 11.0,
+    "carbs_g": 24.0,
+    "typical_serving_g": 132,
+    "serving_description": "2/3 cup vanilla",
+    "notes": "Premium and mix-in flavors run higher."
+  },
+  "lasagna": {
+    "name": "Lasagna",
+    "calories_per_100g": 135,
+    "protein_g": 8.0,
+    "fat_g": 6.0,
+    "carbs_g": 12.0,
+    "typical_serving_g": 300,
+    "serving_description": "1 restaurant square",
+    "notes": "Meat vs. vegetable versions differ."
+  },
+  "lobster_bisque": {
+    "name": "Lobster Bisque",
+    "calories_per_100g": 99,
+    "protein_g": 5.0,
+    "fat_g": 6.0,
+    "carbs_g": 6.0,
+    "typical_serving_g": 240,
+    "serving_description": "1 cup",
+    "notes": "Cream-based soup."
+  },
+  "lobster_roll_sandwich": {
+    "name": "Lobster Roll",
+    "calories_per_100g": 207,
+    "protein_g": 14.0,
+    "fat_g": 10.0,
+    "carbs_g": 14.0,
+    "typical_serving_g": 200,
+    "serving_description": "1 roll",
+    "notes": "Mayo vs. butter style."
+  },
+  "macaroni_and_cheese": {
+    "name": "Macaroni and Cheese",
+    "calories_per_100g": 164,
+    "protein_g": 7.0,
+    "fat_g": 8.0,
+    "carbs_g": 16.0,
+    "typical_serving_g": 200,
+    "serving_description": "1 cup",
+    "notes": "Baked restaurant versions are richer."
+  },
+  "macarons": {
+    "name": "Macarons",
+    "calories_per_100g": 404,
+    "protein_g": 7.0,
+    "fat_g": 17.0,
+    "carbs_g": 55.0,
+    "typical_serving_g": 24,
+    "serving_description": "2 cookies",
+    "notes": "Almond meringue sandwich cookies."
+  },
+  "miso_soup": {
+    "name": "Miso Soup",
+    "calories_per_100g": 35,
+    "protein_g": 2.5,
+    "fat_g": 1.0,
+    "carbs_g": 4.0,
+    "typical_serving_g": 240,
+    "serving_description": "1 bowl",
+    "notes": "Tofu and seaweed included."
+  },
+  "mussels": {
+    "name": "Mussels",
+    "calories_per_100g": 86,
+    "protein_g": 12.0,
+    "fat_g": 2.2,
+    "carbs_g": 3.7,
+    "typical_serving_g": 200,
+    "serving_description": "Steamed mussels, meat only",
+    "notes": "Wine-butter broth extra; shells excluded from weight."
+  },
+  "nachos": {
+    "name": "Nachos",
+    "calories_per_100g": 306,
+    "protein_g": 8.0,
+    "fat_g": 17.0,
+    "carbs_g": 32.0,
+    "typical_serving_g": 180,
+    "serving_description": "Loaded appetizer share",
+    "notes": "Cheese, sour cream, and guacamole included in typical plate."
+  },
+  "omelette": {
+    "name": "Omelette",
+    "calories_per_100g": 154,
+    "protein_g": 11.0,
+    "fat_g": 12.0,
+    "carbs_g": 1.5,
+    "typical_serving_g": 150,
+    "serving_description": "2-3 egg omelette",
+    "notes": "Cheese and fillings extra."
+  },
+  "onion_rings": {
+    "name": "Onion Rings",
+    "calories_per_100g": 332,
+    "protein_g": 4.5,
+    "fat_g": 18.0,
+    "carbs_g": 38.0,
+    "typical_serving_g": 100,
+    "serving_description": "Side order",
+    "notes": "Battered and deep-fried."
+  },
+  "oysters": {
+    "name": "Oysters",
+    "calories_per_100g": 81,
+    "protein_g": 9.0,
+    "fat_g": 2.3,
+    "carbs_g": 4.0,
+    "typical_serving_g": 84,
+    "serving_description": "6 raw oysters",
+    "notes": "Cocktail sauce extra."
+  },
+  "pad_thai": {
+    "name": "Pad Thai",
+    "calories_per_100g": 152,
+    "protein_g": 7.0,
+    "fat_g": 6.0,
+    "carbs_g": 18.0,
+    "typical_serving_g": 400,
+    "serving_description": "1 restaurant plate",
+    "notes": "Peanuts, oil, and sugar in sauce vary."
+  },
+  "paella": {
+    "name": "Paella",
+    "calories_per_100g": 157,
+    "protein_g": 9.0,
+    "fat_g": 5.0,
+    "carbs_g": 18.0,
+    "typical_serving_g": 350,
+    "serving_description": "1 plate",
+    "notes": "Seafood vs. mixed paella."
+  },
+  "pancakes": {
+    "name": "Pancakes",
+    "calories_per_100g": 227,
+    "protein_g": 6.0,
+    "fat_g": 7.0,
+    "carbs_g": 36.0,
+    "typical_serving_g": 150,
+    "serving_description": "3 medium pancakes, no toppings",
+    "notes": "Butter and syrup extra."
+  },
+  "panna_cotta": {
+    "name": "Panna Cotta",
+    "calories_per_100g": 186,
+    "protein_g": 3.0,
+    "fat_g": 13.0,
+    "carbs_g": 14.0,
+    "typical_serving_g": 120,
+    "serving_description": "1 ramekin",
+    "notes": "Fruit coulis extra."
+  },
+  "peking_duck": {
+    "name": "Peking Duck",
+    "calories_per_100g": 337,
+    "protein_g": 19.0,
+    "fat_g": 28.0,
+    "carbs_g": 3.0,
+    "typical_serving_g": 150,
+    "serving_description": "Sliced duck with skin, pancakes extra",
+    "notes": "Pancakes, hoisin, and cucumber extra."
+  },
+  "pho": {
+    "name": "Pho",
+    "calories_per_100g": 46,
+    "protein_g": 4.0,
+    "fat_g": 1.0,
+    "carbs_g": 6.0,
+    "typical_serving_g": 600,
+    "serving_description": "Large bowl with noodles and beef",
+    "notes": "Broth-heavy; garnishes extra."
+  },
+  "pizza": {
+    "name": "Pizza",
+    "calories_per_100g": 266,
+    "protein_g": 11.0,
+    "fat_g": 10.0,
+    "carbs_g": 33.0,
+    "typical_serving_g": 107,
+    "serving_description": "1 slice cheese pizza",
+    "notes": "Toppings and crust thickness change calories."
+  },
+  "pork_chop": {
+    "name": "Pork Chop",
+    "calories_per_100g": 231,
+    "protein_g": 24.0,
+    "fat_g": 14.0,
+    "carbs_g": 0.0,
+    "typical_serving_g": 170,
+    "serving_description": "1 cooked chop",
+    "notes": "Pan sauce extra."
+  },
+  "poutine": {
+    "name": "Poutine",
+    "calories_per_100g": 229,
+    "protein_g": 7.0,
+    "fat_g": 12.0,
+    "carbs_g": 23.0,
+    "typical_serving_g": 300,
+    "serving_description": "Fries, gravy, cheese curds",
+    "notes": "Restaurant portions are often larger."
+  },
+  "prime_rib": {
+    "name": "Prime Rib",
+    "calories_per_100g": 291,
+    "protein_g": 24.0,
+    "fat_g": 21.0,
+    "carbs_g": 0.0,
+    "typical_serving_g": 220,
+    "serving_description": "8 oz slice",
+    "notes": "Au jus and horseradish extra."
+  },
+  "pulled_pork_sandwich": {
+    "name": "Pulled Pork Sandwich",
+    "calories_per_100g": 223,
+    "protein_g": 14.0,
+    "fat_g": 10.0,
+    "carbs_g": 18.0,
+    "typical_serving_g": 220,
+    "serving_description": "1 sandwich with sauce",
+    "notes": "Coleslaw extra."
+  },
+  "ramen": {
+    "name": "Ramen",
+    "calories_per_100g": 91,
+    "protein_g": 5.0,
+    "fat_g": 3.5,
+    "carbs_g": 10.0,
+    "typical_serving_g": 500,
+    "serving_description": "1 bowl with broth and toppings",
+    "notes": "Tonkotsu is richer than shoyu."
+  },
+  "ravioli": {
+    "name": "Ravioli",
+    "calories_per_100g": 175,
+    "protein_g": 8.0,
+    "fat_g": 6.0,
+    "carbs_g": 22.0,
+    "typical_serving_g": 200,
+    "serving_description": "Plate with tomato sauce",
+    "notes": "Cheese vs. meat filling."
+  },
+  "red_velvet_cake": {
+    "name": "Red Velvet Cake",
+    "calories_per_100g": 367,
+    "protein_g": 4.5,
+    "fat_g": 18.0,
+    "carbs_g": 48.0,
+    "typical_serving_g": 110,
+    "serving_description": "1 slice",
+    "notes": "Cream-cheese frosting included."
+  },
+  "risotto": {
+    "name": "Risotto",
+    "calories_per_100g": 166,
+    "protein_g": 4.5,
+    "fat_g": 6.0,
+    "carbs_g": 23.0,
+    "typical_serving_g": 250,
+    "serving_description": "1 plate",
+    "notes": "Butter and parmesan included."
+  },
+  "samosa": {
+    "name": "Samosa",
+    "calories_per_100g": 262,
+    "protein_g": 5.0,
+    "fat_g": 14.0,
+    "carbs_g": 29.0,
+    "typical_serving_g": 70,
+    "serving_description": "1 large samosa",
+    "notes": "Fried pastry; chutney extra."
+  },
+  "sashimi": {
+    "name": "Sashimi",
+    "calories_per_100g": 127,
+    "protein_g": 21.0,
+    "fat_g": 4.0,
+    "carbs_g": 0.0,
+    "typical_serving_g": 120,
+    "serving_description": "Assorted slices (~8 pieces)",
+    "notes": "Fish type (salmon vs. tuna) changes fat."
+  },
+  "scallops": {
+    "name": "Scallops",
+    "calories_per_100g": 111,
+    "protein_g": 21.0,
+    "fat_g": 1.0,
+    "carbs_g": 5.0,
+    "typical_serving_g": 120,
+    "serving_description": "5-6 seared scallops",
+    "notes": "Butter pan sauce extra."
+  },
+  "seaweed_salad": {
+    "name": "Seaweed Salad",
+    "calories_per_100g": 70,
+    "protein_g": 1.5,
+    "fat_g": 2.5,
+    "carbs_g": 11.0,
+    "typical_serving_g": 80,
+    "serving_description": "Side dish",
+    "notes": "Sesame oil and sugar in dressing."
+  },
+  "shrimp_and_grits": {
+    "name": "Shrimp and Grits",
+    "calories_per_100g": 164,
+    "protein_g": 10.0,
+    "fat_g": 8.0,
+    "carbs_g": 12.0,
+    "typical_serving_g": 320,
+    "serving_description": "1 bowl",
+    "notes": "Cheese grits and bacon gravy typical."
+  },
+  "spaghetti_bolognese": {
+    "name": "Spaghetti Bolognese",
+    "calories_per_100g": 132,
+    "protein_g": 7.0,
+    "fat_g": 4.5,
+    "carbs_g": 16.0,
+    "typical_serving_g": 300,
+    "serving_description": "1 plate",
+    "notes": "Meat sauce over pasta."
+  },
+  "spaghetti_carbonara": {
+    "name": "Spaghetti Carbonara",
+    "calories_per_100g": 174,
+    "protein_g": 8.0,
+    "fat_g": 8.0,
+    "carbs_g": 17.0,
+    "typical_serving_g": 300,
+    "serving_description": "1 plate",
+    "notes": "Egg, pecorino, and guanciale."
+  },
+  "spring_rolls": {
+    "name": "Spring Rolls",
+    "calories_per_100g": 154,
+    "protein_g": 5.0,
+    "fat_g": 6.0,
+    "carbs_g": 20.0,
+    "typical_serving_g": 100,
+    "serving_description": "2 fried spring rolls",
+    "notes": "Fresh rice-paper rolls are lower in calories."
+  },
+  "steak": {
+    "name": "Steak",
+    "calories_per_100g": 271,
+    "protein_g": 25.0,
+    "fat_g": 19.0,
+    "carbs_g": 0.0,
+    "typical_serving_g": 220,
+    "serving_description": "8 oz cooked steak",
+    "notes": "Cut and marbling vary."
+  },
+  "strawberry_shortcake": {
+    "name": "Strawberry Shortcake",
+    "calories_per_100g": 250,
+    "protein_g": 3.5,
+    "fat_g": 10.0,
+    "carbs_g": 38.0,
+    "typical_serving_g": 150,
+    "serving_description": "1 serving with cream",
+    "notes": "Biscuit, berries, whipped cream."
+  },
+  "sushi": {
+    "name": "Sushi",
+    "calories_per_100g": 143,
+    "protein_g": 6.0,
+    "fat_g": 2.5,
+    "carbs_g": 24.0,
+    "typical_serving_g": 180,
+    "serving_description": "6-8 nigiri or mixed rolls",
+    "notes": "Fried rolls and mayo sauces run higher."
+  },
+  "tacos": {
+    "name": "Tacos",
+    "calories_per_100g": 226,
+    "protein_g": 11.0,
+    "fat_g": 12.0,
+    "carbs_g": 18.0,
+    "typical_serving_g": 150,
+    "serving_description": "2 street-style tacos",
+    "notes": "Tortilla type and filling vary."
+  },
+  "takoyaki": {
+    "name": "Takoyaki",
+    "calories_per_100g": 173,
+    "protein_g": 7.0,
+    "fat_g": 8.0,
+    "carbs_g": 18.0,
+    "typical_serving_g": 120,
+    "serving_description": "6-8 balls",
+    "notes": "Sauce, mayo, and bonito extra."
+  },
+  "tiramisu": {
+    "name": "Tiramisu",
+    "calories_per_100g": 283,
+    "protein_g": 5.0,
+    "fat_g": 16.0,
+    "carbs_g": 29.0,
+    "typical_serving_g": 120,
+    "serving_description": "1 slice",
+    "notes": "Mascarpone and ladyfingers."
+  },
+  "tuna_tartare": {
+    "name": "Tuna Tartare",
+    "calories_per_100g": 142,
+    "protein_g": 18.0,
+    "fat_g": 6.0,
+    "carbs_g": 4.0,
+    "typical_serving_g": 120,
+    "serving_description": "Appetizer plate",
+    "notes": "Sesame oil and avocado extra."
+  },
+  "waffles": {
+    "name": "Waffles",
+    "calories_per_100g": 291,
+    "protein_g": 7.0,
+    "fat_g": 14.0,
+    "carbs_g": 33.0,
+    "typical_serving_g": 150,
+    "serving_description": "2 waffles, no toppings",
+    "notes": "Butter, syrup, and fruit extra."
+  }
+}

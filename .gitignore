@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+data/food-101/
+data/food-101.tar.gz
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/history.json
+checkpoints/training_curves.png
+.DS_Store
+Thumbs.db
