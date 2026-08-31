@@ -41,6 +41,60 @@ python -m src.train --epochs 12 --freeze-epochs 3 --batch-size 16
 
 On a 4 GB GPU, keep `--batch-size` at 16 (or 8 if you hit out-of-memory). Best weights go to `checkpoints/best_model.pt`.
 
+Regenerate plots from `checkpoints/history.json`:
+
+```bash
+python -m src.plot_metrics
+```
+
+## Evaluation results
+
+12 epochs on Food-101 (official split: 75,750 train / 25,250 test). Epochs 1–3 train the classifier head only; from epoch 4 the EfficientNet-B0 backbone is unfrozen.
+
+| Metric | Value |
+|--------|--------|
+| Best val top-1 | **86.71%** (epoch 11) |
+| Best val top-5 | **97.20%** (epoch 12) |
+| Final train top-1 | 88.33% |
+| Final val loss | 1.315 |
+
+| Epoch | Train loss | Train top-1 | Val loss | Val top-1 | Val top-5 |
+|------:|-----------:|------------:|---------:|----------:|----------:|
+| 1 | 3.394 | 33.8% | 2.614 | 51.2% | 76.6% |
+| 2 | 3.382 | 36.8% | 2.613 | 52.5% | 77.4% |
+| 3 | 3.359 | 37.4% | 2.614 | 52.9% | 78.0% |
+| 4 | 2.278 | 58.7% | 1.617 | 78.3% | 94.5% |
+| 5 | 1.864 | 70.1% | 1.504 | 81.7% | 95.9% |
+| 6 | 1.695 | 75.5% | 1.438 | 83.2% | 96.2% |
+| 7 | 1.574 | 79.0% | 1.396 | 84.8% | 96.8% |
+| 8 | 1.482 | 82.2% | 1.368 | 85.6% | 96.9% |
+| 9 | 1.410 | 84.3% | 1.342 | 85.9% | 97.1% |
+| 10 | 1.351 | 86.3% | 1.326 | 86.5% | 97.2% |
+| 11 | 1.316 | 87.6% | 1.313 | **86.71%** | 97.2% |
+| 12 | 1.296 | 88.3% | 1.315 | 86.70% | **97.20%** |
+
+### Overview
+
+![Evaluation overview](docs/evaluation_overview.jpg)
+
+### Loss
+
+![Training and validation loss](docs/loss.jpg)
+
+### Top-1 accuracy
+
+![Top-1 accuracy](docs/top1_accuracy.jpg)
+
+### Top-5 accuracy
+
+![Top-5 validation accuracy](docs/top5_accuracy.jpg)
+
+### Generalization gap
+
+Train top-1 minus val top-1 (percentage points). A growing positive gap means the model is fitting the training set faster than it generalizes.
+
+![Generalization gap](docs/generalization_gap.jpg)
+
 ## Evaluate and predict
 
 ```bash
@@ -64,7 +118,9 @@ Upload or capture a photo, confirm the top prediction, set portion size, and add
 | `src/model.py` | EfficientNet-B0 classifier |
 | `src/dataset.py` | Food-101 loaders and transforms |
 | `src/predict.py` | CLI inference |
+| `src/plot_metrics.py` | Evaluation graphs from `history.json` |
 | `src/nutrition.py` | Serving-size scaling |
+| `docs/` | Loss, accuracy, and gap plots |
 | `data/nutrition.json` | Per-class calories and macros |
 | `app.py` | Streamlit tracker |
 
@@ -72,4 +128,4 @@ Upload or capture a photo, confirm the top prediction, set portion size, and add
 
 - Nutrition figures are typical averages. Restaurant recipes, oil, and sides vary.
 - Images do not encode true plate weight; always adjust grams.
-- Expect roughly mid-70s to low-80s **top-1** and much higher **top-5** after a full fine-tune, depending on epochs and hardware.
+- This run reached **86.7%** val top-1 and **97.2%** val top-5 after 12 epochs on a GTX 1650.
